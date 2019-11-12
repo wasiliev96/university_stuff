@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playfair cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to Playfair cipher Playground!</h1>
+    <div class="wrapper">
+        <div id="userfield">
+            <h2>Fill your data, man</h2>
+            <br>
+            <label for="keyword">Enter cipher keyword:</label>
+            <input type="text" id="keyword" placeholder="ex. WHEATSON"><br>
+            <label for="userinput">Enter phrase to encrypt:</label>
+            <input type="text" id="userinput" placeholder="ex. WHERE IS MY MONEY">
+            <button onclick="encrypt()">Proceed</button>
+        </div>
+        <div id="result">
+            <h2>Get your data, man</h2>
+            <div id="matrix">
+                <h3>Your matrix, man</h3>
+                <table>
+
+                </table>
+            </div>
+            <div id="biograms">
+                <h3>Your biogram, man</h3>
+            </div>
+            <div id="cipher">
+                <h3>Your cipher, man</h3>
+            </div>
+        </div>
+    </div>
+<script src="playfair.js"></script>
+</body>
+
+</html>

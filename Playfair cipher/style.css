@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#userfield, #result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px 60px;
+}
+#userfield{
+    background-color: #ccc;
+}
+#result{
+    background-color: #dede;
+}
+
+#userfield input, #userfield label, #userfield button {
+    padding: 5px;
+    width: 100%;
+}
+
+#userfield button {
+    margin-top: 15px;
+}
